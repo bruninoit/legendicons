@@ -1,0 +1,31 @@
+{
+    "name": "bruninoit/legendicons",
+    "type": "phpbb-extension",
+    "description": "It adds two legend of icons in the index and in the viewforum, as Subsilver2",
+    "homepage": "https://github.com/bruninoit/legendicons",
+    "version": "0.1.0-RC1",
+    "time": "2015-02-21",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "brunino",
+            "email": "brunino@altervista.org",
+            "homepage": "http://www.brunino.altervista.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "extra": {
+        "display-name": "Legend of Icons",
+        "soft-require": {
+             "phpbb/phpbb": "3.1.*@dev"
+        },
+        "version-check": {
+            "host": "brunino.altervista.org",
+            "directory": "/version/",
+            "filename": "legendicons.json"
+        }
+    }
+}
